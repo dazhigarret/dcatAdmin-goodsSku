@@ -1,8 +1,8 @@
 #dcatAdmin
 
-> 非常感谢lty5240
+> 非常感谢[lty5240](https://github.com/lty5240/dcat-easy-sku.git)
 
-该插件是 [Dcat Admin](https://github.com/lty5240/dcat-easy-sku) 的插件，安装方式遵循Dcat Admin官方文档
+该插件是 [Dcat Admin](https://github.com/jqhph/dcat-admin-demo) 的插件，安装方式遵循Dcat Admin官方文档
 
 默认规格带有 图片，库存，价格 三个属性， 可自行添加属性，自行处理
 
