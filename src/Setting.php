@@ -8,7 +8,7 @@ class Setting extends Form
 {
     public function title()
     {
-        return 'Sku配置菜单';
+        return '配置菜单';
     }
 
     public function form()
