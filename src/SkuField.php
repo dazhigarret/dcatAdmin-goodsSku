@@ -19,4 +19,5 @@ class SkuField extends Field
 EOF;
         return parent::render();
     }
+
 }
