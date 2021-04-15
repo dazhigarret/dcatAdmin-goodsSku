@@ -1,5 +1,5 @@
 {
-    "name": "dazhi/dcatAdmin-goodsSku",
+    "name": "dazhi/dcat-goods-sku",
     "description": "基于Dcat Admin的Sku插件,自用",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
