@@ -1,6 +1,6 @@
 (function () {
     // 上传地址
-    const UploadHost = '/upload/imgUpload';
+    const UploadHost = 'api/files';
 
     function SKU(warp) {
         this.warp = $(warp);
