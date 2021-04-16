@@ -1,5 +1,5 @@
 (function () {
-    // 上传地址
+    // 上传地址,配置路由
     const UploadHost = 'api/files';
 
     function SKU(warp) {
