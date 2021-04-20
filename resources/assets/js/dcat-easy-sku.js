@@ -1,6 +1,7 @@
 (function () {
     // 上传地址,配置路由
-    const UploadHost = 'api/files';
+
+    const UploadHost = location.href.split("goods")[0]+'api/files';
 
     function SKU(warp) {
         this.warp = $(warp);
