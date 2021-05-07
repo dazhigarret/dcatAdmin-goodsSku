@@ -301,7 +301,7 @@
                 processData: false, //告诉jQuery不要去处理发送的数据
                 success: function (res) {
                     obj.css('background-image', 'url(' + res.url + ')').html('');
-                    obj.parent().find('input').val(res.url);
+                    obj.parent().find('input').val(res.id);
                     _this.processSku()
                 }
             })
