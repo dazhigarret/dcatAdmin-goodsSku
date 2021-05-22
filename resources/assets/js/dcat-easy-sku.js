@@ -2,7 +2,7 @@
     // 上传地址,配置路由
 
     // const UploadHost = location.href.split("goods")[0]+'api/skuImage';
-    const UploadHost = 'api/skuImage';
+    const UploadHost = '/admin/api/skuImage';
     function SKU(warp) {
         this.warp = $(warp);
         this.attrs = {};
