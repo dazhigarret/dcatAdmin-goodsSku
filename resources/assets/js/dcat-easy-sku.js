@@ -8,6 +8,7 @@
         this.attrs = {};
         this.commonStock = 0; // 统一库存
         this.commonPrice = 0; // 统一价格
+        this.commonGoodsSkuId = 0; //skuid
         this.init();
     }
 
@@ -185,6 +186,7 @@
             attr_names.forEach(function (attr_name) {
                 thead_html += '<th style="width: 80px">' + attr_name + '</th>'
             });
+            thead_html += '<th style="display:none">goodsSkuId</th>';
             thead_html += '<th style="width: 70px">图片</th>';
             thead_html += '<th style="width: 100px">库存</th>';
             thead_html += '<th>商品价格</th>';
@@ -217,10 +219,10 @@
                     let attr_name = attr_names[index];
                     tbody_html += '<td data-field="' + attr_name + '" class="attr-name">' + attr_val + '</td>';
                 });
+                tbody_html += '<td style="display: none" data-field="goodsSkuId"><input value="" type="hidden" class="form-control"></td>';
                 tbody_html += '<td data-field="pic"><input value="" type="hidden" class="form-control"><span class="Js_sku_upload">' + uploadImageButton + '</span></td>';
                 tbody_html += '<td data-field="stock"><input value="" type="text" class="form-control"></td>';
                 tbody_html += '<td data-field="price"><input value="" type="text" class="form-control"></td>';
-
                 params.forEach((v) => {
                     tbody_html += '<td data-field="' + v['field'] + '"><input value="' + v['default'] + '" type="text" class="form-control"></td>';
                 })
